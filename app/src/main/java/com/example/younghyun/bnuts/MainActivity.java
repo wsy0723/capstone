@@ -68,7 +68,8 @@ public class MainActivity extends Activity implements AdapterView.OnItemSelected
     private CalendarView cal;
 
     private Button alarmbtn;
-    private Button firstbtn;
+    private Button saengribtn;
+    private Button baeranbtn;
 
     private static Logger sLog = Logger.getLogger(MainActivity.class.getName());
     private Thermodo mThermodo;
@@ -291,11 +292,11 @@ public class MainActivity extends Activity implements AdapterView.OnItemSelected
         tabHost.setup();
 
         tabHost.addTab(tabHost.newTabSpec("TAB1")
-                .setContent(R.id.main_layout).setIndicator(getString(R.string.main_layout)));
+                .setContent(R.id.main_layout).setIndicator("", getResources().getDrawable(R.drawable.ic_home)));
         tabHost.addTab(tabHost.newTabSpec("TAB2")
-                .setContent(R.id.calendar_layout).setIndicator(getString(R.string.calendar_layout)));
+                .setContent(R.id.calendar_layout).setIndicator("", getResources().getDrawable(R.drawable.ic_calendar)));
         tabHost.addTab(tabHost.newTabSpec("TAB3")
-                .setContent(R.id.graph_layout).setIndicator(getString(R.string.graph_layout)));
+                .setContent(R.id.graph_layout).setIndicator("", getResources().getDrawable(R.drawable.ic_bar_chart)));
         mTemperatureTextView = (TextView) findViewById(R.id.temperatureTextView);
         //ThermodoFactory를 통해서 Thermodo instance를 생성하고 그 값을 받아온다
         //parameter는 Context이므로 Activity를 extends한 자기자신을 파라미터로 전달한다
@@ -314,12 +315,26 @@ public class MainActivity extends Activity implements AdapterView.OnItemSelected
             }
         });
 
-        firstbtn = (Button) findViewById(R.id.first);
-        firstbtn.setOnClickListener(new View.OnClickListener() {
+        saengribtn = (Button) findViewById(R.id.saengri);
+        baeranbtn = (Button) findViewById(R.id.baeran);
+        saengribtn.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view){
                 TextView newtext;
                 newtext = (TextView) findViewById(R.id.d_day);
-                newtext.setText("hello");
+                saengribtn.setBackgroundColor(getResources().getColor(R.color.main_button_activated));
+                baeranbtn.setBackgroundColor(getResources().getColor(R.color.main_button_non_activated));
+                newtext.setText(R.string.saengriDay);
+
+            }
+        });
+
+        baeranbtn.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view){
+                TextView newtext;
+                newtext = (TextView) findViewById(R.id.d_day);
+                baeranbtn.setBackgroundColor(getResources().getColor(R.color.main_button_activated));
+                saengribtn.setBackgroundColor(getResources().getColor(R.color.main_button_non_activated));
+                newtext.setText(R.string.baeranDay);
 
             }
         });

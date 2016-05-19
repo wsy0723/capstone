@@ -70,7 +70,7 @@
                                 android:layout_height="wrap_content"
 
                                 android:text="생리 예정일"
-                                android:id="@+id/first"
+                                android:id="@+id/saengri"
                                 style="@style/ButtonText"
                                 android:background="@color/main_button_activated"
                                 android:layout_alignRight="@+id/logo"
@@ -82,7 +82,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="배란 예정일"
-                                android:id="@+id/button2"
+                                android:id="@+id/baeran"
                                 android:layout_below="@+id/logo"
                                 android:layout_alignLeft="@+id/logo"
                                 android:layout_alignStart="@+id/logo"

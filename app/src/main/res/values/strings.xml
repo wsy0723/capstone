@@ -14,5 +14,7 @@
     <string name="disable">Disable</string>
     <string name="thermodo_unplugged"></string>
     <string name="draw_chart">Draw chart</string>
+    <string name="saengriDay">생리일</string>
+    <string name="baeranDay">배란일</string>
 
 </resources>
