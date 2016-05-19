@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/woo/Desktop/bn/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/Users/woo/Desktop/bn/app/build/intermediates/pre-dexed/debug/classes-69fea9ac3d027739876a1a2f8c817efce5bac194.jar" />
+    </item>
+    <item
+        jar="/Users/woo/Desktop/bn/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/Users/woo/Desktop/bn/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-97d8c618c2079ec30552736c51a00e8d1000dd0d.jar" />
+    </item>
+    <item
+        jar="/Users/woo/Desktop/bn/app/libs/thermodosdk-1.0.18.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="04a3e01bbde71406233b43cee930f979ea44039e">
+        <dex dex="/Users/woo/Desktop/bn/app/build/intermediates/pre-dexed/debug/thermodosdk-1.0.18-ecdf96b0ad2e003a3f097b77074e2f1927a24791.jar" />
+    </item>
+    <item
+        jar="/Users/woo/Desktop/bn/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/Users/woo/Desktop/bn/app/build/intermediates/pre-dexed/debug/classes-a758a112e1a62d89fffc5d1aeebd1fb244f9627a.jar" />
+    </item>
+    <item
+        jar="/Users/woo/Desktop/bn/app/libs/achartengine-1.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9932e3fb9fbe54e80873e77f72a99f79e33b3250">
+        <dex dex="/Users/woo/Desktop/bn/app/build/intermediates/pre-dexed/debug/achartengine-1.1.0-38be53a7b7f39c29df68aa2565b79dcfde8f1b5e.jar" />
+    </item>
+    <item
+        jar="/Users/woo/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/Users/woo/Desktop/bn/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-5fef978df1134d492aa24e9875c545d379dfadef.jar" />
+    </item>
+
+</items>

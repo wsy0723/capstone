@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <color name="transparent_background">#00FF0000</color>
+    <color name="graph_line_color">#FFFF0000</color>
+    <color name="background">#F2B8c6</color>
+    <color name="main_button_activated">#F25278</color>
+    <color name="main_button_non_activated">#9897A9</color>
+</resources>
